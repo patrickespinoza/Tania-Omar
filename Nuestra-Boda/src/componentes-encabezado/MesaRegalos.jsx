@@ -152,9 +152,12 @@ export default function MesaDeRegalos() {
             "
           >
             Tu presencia es nuestro mejor regalo.
-            <br />
-            Si deseas tener un detalle con nosotros,
-            hemos preparado las siguientes opciones.
+<br />
+Si deseas tener un detalle con nosotros,
+hemos preparado las siguientes opciones.
+<br />
+También contaremos con lluvia de sobres,
+para quienes deseen obsequiarnos un detalle en efectivo.
           </p>
 
           {/* OPCIONES */}

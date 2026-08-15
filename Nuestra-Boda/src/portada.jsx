@@ -213,7 +213,7 @@ export default function Portada() {
                 lg:text-[105px]
               "
             >
-              T
+              TD
             </span>
 
             <span
@@ -239,7 +239,7 @@ export default function Portada() {
                 lg:text-[105px]
               "
             >
-              O
+              OA
             </span>
           </motion.div>
 

@@ -139,7 +139,7 @@ export default function Presentacion() {
                 lg:text-[104px]
               "
             >
-              Tania
+              Tania Daniela
             </h2>
 
             <span
@@ -167,7 +167,7 @@ export default function Presentacion() {
                 lg:text-[104px]
               "
             >
-              Omar
+              Omar Alfonso
             </h2>
 
             <p

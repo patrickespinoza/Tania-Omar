@@ -5,13 +5,15 @@ import ConfirmacionAsistencia from "./componentes-encabezado/confirmacion";
 import EventoDireccion from "./componentes-encabezado/ubicacion";
 import ItinerarioTimeline from "./componentes-encabezado/itinerario2";
 import MesaDeRegalos from "./componentes-encabezado/MesaRegalos";
+import Musica from "./componentes-encabezado/musica";
 
 export default function Itinerario() {
 
   return (
     <div>
 
-
+      <Musica/>
+      
       <Presentacion />
 
       <EventoDireccion/>
