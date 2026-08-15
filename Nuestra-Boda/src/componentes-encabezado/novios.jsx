@@ -131,12 +131,12 @@ export default function Presentacion() {
              style={{ fontFamily: '"Great Vibes", cursive' }}
               className="
                 font-['Great_Vibes']
-                text-[70px]
+                text-[68px]
                 font-normal
                 leading-[0.95]
                 text-[#343A2C]
-                sm:text-[92px]
-                lg:text-[104px]
+                sm:text-[90px]
+                lg:text-[102px]
               "
             >
               Tania Daniela
