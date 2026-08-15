@@ -544,35 +544,7 @@ export default function ItinerarioTimeline() {
             </p>
           </motion.div>
 
-          {/* EUCALIPTO INFERIOR */}
-          <motion.img
-            src="/eucalipto-superior.png"
-            alt=""
-            initial={{
-              opacity: 0,
-              x: -30,
-              rotate: 65,
-            }}
-            whileInView={{
-              opacity: 0.38,
-              x: 0,
-              rotate: 65,
-            }}
-            viewport={{ once: true }}
-            transition={{ duration: 1.2 }}
-            className="
-              pointer-events-none
-              absolute
-              bottom-[-150px]
-              left-[-200px]
-              w-[420px]
-              max-w-none
-              select-none
-
-              sm:left-[-230px]
-              sm:w-[510px]
-            "
-          />
+          
         </div>
 
         {/* ==========================================
