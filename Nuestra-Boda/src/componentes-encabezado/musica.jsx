@@ -220,67 +220,7 @@ export default function Musica() {
                 }}
               />
 
-              {/* ============================================
-                  EUCALIPTO
-              ============================================= */}
-
-              <motion.img
-                src="/eucalipto-superior.png"
-                alt=""
-                initial={{
-                  opacity: 0,
-                  x: -20,
-                  rotate: 20,
-                }}
-                animate={{
-                  opacity: 0.42,
-                  x: 0,
-                  rotate: 20,
-                }}
-                transition={{
-                  duration: 1.2,
-                  delay: 0.2,
-                }}
-                className="
-                  pointer-events-none
-                  absolute
-                  left-[-130px]
-                  top-[-85px]
-                  w-[280px]
-                  max-w-none
-                  select-none
-                "
-              />
-
-              <motion.img
-                src="/eucalipto-superior.png"
-                alt=""
-                initial={{
-                  opacity: 0,
-                  x: 20,
-                  rotate: 205,
-                  scaleX: -1,
-                }}
-                animate={{
-                  opacity: 0.32,
-                  x: 0,
-                  rotate: 205,
-                  scaleX: -1,
-                }}
-                transition={{
-                  duration: 1.2,
-                  delay: 0.25,
-                }}
-                className="
-                  pointer-events-none
-                  absolute
-                  bottom-[-100px]
-                  right-[-145px]
-                  w-[290px]
-                  max-w-none
-                  select-none
-                "
-              />
+              
 
               {/* ============================================
                   CONTENIDO
