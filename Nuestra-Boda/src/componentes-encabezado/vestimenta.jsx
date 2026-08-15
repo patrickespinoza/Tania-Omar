@@ -170,76 +170,7 @@ export default function Vestimenta() {
         "
       >
 
-        {/* =============================================
-            EUCALIPTO SUPERIOR IZQUIERDO
-        ============================================== */}
-        <motion.img
-          src="/eucalipto.png"
-          alt=""
-          initial={{
-            opacity: 0,
-            x: -30,
-            rotate: 25,
-          }}
-          whileInView={{
-            opacity: 0.52,
-            x: 0,
-            rotate: 25,
-          }}
-          viewport={{ once: true }}
-          transition={{
-            duration: 1.2,
-          }}
-          className="
-            pointer-events-none
-            absolute
-            left-[-180px]
-            top-[-85px]
-            w-[390px]
-            max-w-none
-            select-none
-
-            sm:left-[-200px]
-            sm:w-[470px]
-          "
-        />
-
-        {/* =============================================
-            EUCALIPTO INFERIOR DERECHO
-        ============================================== */}
-        <motion.img
-          src="/eucalipto-superior.png"
-          alt=""
-          initial={{
-            opacity: 0,
-            x: 30,
-            rotate: 205,
-            scaleX: -1,
-          }}
-          whileInView={{
-            opacity: 0.46,
-            x: 0,
-            rotate: 205,
-            scaleX: -1,
-          }}
-          viewport={{ once: true }}
-          transition={{
-            duration: 1.2,
-          }}
-          className="
-            pointer-events-none
-            absolute
-            bottom-[-120px]
-            right-[-190px]
-            w-[400px]
-            max-w-none
-            select-none
-
-            sm:right-[-210px]
-            sm:w-[480px]
-          "
-        />
-
+      
         {/* =============================================
             CONTENIDO
         ============================================== */}

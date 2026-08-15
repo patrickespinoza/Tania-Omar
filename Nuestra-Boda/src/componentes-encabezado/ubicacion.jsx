@@ -26,36 +26,7 @@ export default function EventoDireccion() {
 
       <div className="relative z-10 mx-auto w-full max-w-[760px] px-6 py-20 sm:px-12 sm:py-28">
 
-        {/* EUCALIPTO SUPERIOR DERECHO */}
-        <motion.img
-          src="/eucalipto-superior.png"
-          alt=""
-          initial={{
-            opacity: 0,
-            x: 30,
-            rotate: 255,
-            scaleX: -1,
-          }}
-          whileInView={{
-            opacity: 0.55,
-            x: 0,
-            rotate: 255,
-            scaleX: -1,
-          }}
-          viewport={{ once: true }}
-          transition={{ duration: 1.2 }}
-          className="
-            pointer-events-none
-            absolute
-            right-[-180px]
-            top-[-70px]
-            w-[390px]
-            max-w-none
-            select-none
-            sm:right-[-190px]
-            sm:w-[470px]
-          "
-        />
+
 
 
         {/* =========================
@@ -179,34 +150,7 @@ export default function EventoDireccion() {
           </a>
         </motion.div>
 
-        {/* EUCALIPTO INFERIOR IZQUIERDO */}
-        <motion.img
-          src="/eucalipto-superior.png"
-          alt=""
-          initial={{
-            opacity: 0,
-            x: -30,
-            rotate: 70,
-          }}
-          whileInView={{
-            opacity: 0.5,
-            x: 0,
-            rotate: 70,
-          }}
-          viewport={{ once: true }}
-          transition={{ duration: 1.2 }}
-          className="
-            pointer-events-none
-            absolute
-            bottom-[-120px]
-            left-[-190px]
-            w-[400px]
-            max-w-none
-            select-none
-            sm:left-[-210px]
-            sm:w-[490px]
-          "
-        />
+      
       </div>
     </section>
   );
